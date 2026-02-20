@@ -1,20 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Chetan Bonde 
- Procurement Category Specialist</title>
+  <title>Chetan Bonde | Procurement Category Specialist</title>
   <meta name="description" content="Procurement Category Specialist with global strategic sourcing, supplier risk management, and data-driven procurement expertise." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <!-- Updated path to stylesheet placed at repository root -->
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23000000'/><text x='50' y='58' font-size='64' fill='%23ffffff' text-anchor='middle' font-family='Arial'>C</text></svg>'">
-  <meta property="og:title" content="Chetan Bonde 
- Procurement Category Specialist" />
+  <meta property="og:title" content="Chetan Bonde | Procurement Category Specialist" />
   <meta property="og:description" content="Global Strategic Sourcing • Supplier Risk • Spend Analytics • Automation" />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#000000" />
@@ -31,11 +27,48 @@
     ]
   }
   </script>
+  <style>
+    /* check-list styles are in styles.css */
+    .project-overview { color: var(--muted); font-size: 14px; margin: 6px 0 10px; line-height: 1.5; }
+    .project-section-title { font-size: 13px; font-weight: 600; color: var(--accent); margin: 10px 0 4px; text-transform: uppercase; letter-spacing: .05em; }
+    /* Contact Form */
+    .contact-form { display: grid; gap: 14px; margin-top: 24px; max-width: 560px; }
+    .contact-form input,
+    .contact-form textarea { width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; color: var(--text); font-family: inherit; font-size: 15px; outline: none; resize: vertical; }
+    .contact-form input:focus,
+    .contact-form textarea:focus { border-color: var(--accent); }
+    .contact-form textarea { min-height: 120px; }
+    .contact-form button { background: linear-gradient(135deg, var(--accent), #1467ff); color: #fff; border: none; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; cursor: pointer; width: fit-content; }
+    .contact-form button:hover { opacity: .88; }
+    .form-success { display: none; color: #4caf50; font-weight: 600; margin-top: 8px; }
+  </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <div class="brand">CB</div>
+      <div class="brand">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="40" height="40" rx="8" fill="url(#brandGrad)"/>
+          <!-- Circuit dots -->
+          <circle cx="7" cy="7" r="1.5" fill="rgba(255,255,255,0.5)"/>
+          <circle cx="33" cy="7" r="1.5" fill="rgba(255,255,255,0.5)"/>
+          <circle cx="7" cy="33" r="1.5" fill="rgba(255,255,255,0.5)"/>
+          <circle cx="33" cy="33" r="1.5" fill="rgba(255,255,255,0.5)"/>
+          <!-- Circuit lines -->
+          <line x1="7" y1="7" x2="7" y2="13" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+          <line x1="33" y1="7" x2="33" y2="13" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+          <line x1="7" y1="33" x2="7" y2="27" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+          <line x1="33" y1="33" x2="33" y2="27" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+          <!-- CB text -->
+          <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="DM Sans, sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="1">CB</text>
+          <defs>
+            <linearGradient id="brandGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#00c2ff"/>
+              <stop offset="100%" stop-color="#0066ff"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
       <nav class="nav">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
@@ -43,7 +76,7 @@
         <a href="#certifications">Certifications</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <a class="resume" href="Chetan_Bonde_Resume_Procurement.pdf" target="_blank" rel="noopener">Download Résumé</a>
+        <a class="resume" href="Chetan_Bonde_Resume_Procurement.pdf" target="_blank" rel="noopener">Download Resume</a>
       </nav>
     </div>
   </header>
@@ -51,9 +84,9 @@
     <section class="hero">
       <div class="container">
         <h1>Hi, I'm <span class="accent">Chetan Bonde</span></h1>
-        <p class="subtitle">Procurement Category Specialist — Global Strategic Sourcing • Supplier Risk • Spend Analytics • Automation</p>
+        <p class="subtitle">Procurement Category Specialist</p>
         <div class="cta">
-          <a class="btn primary" href="mailto:chetanbonde97@gmail.com">Hire Me</a>
+          <a class="btn primary" href="#" onclick="openMailPopup(event)">Hire Me</a>
           <a class="btn" href="https://www.linkedin.com/in/chetan-bonde-20dec1997" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
@@ -64,7 +97,7 @@
       <div class="container grid-2">
         <div>
           <h2>About</h2>
-          <p>I am a results-driven procurement professional experienced across Europe, North America, South America, and APAC. I design and execute category strategies, negotiate global contracts, and drive make-vs-buy decisions while improving working capital and inventory health. My toolkit blends SAP/GEP with analytics and automation using Power BI, Python, and Power Automate.</p>
+          <p>I am a results-driven procurement professional experienced across Europe, North America, South America, and APAC. I design and execute category strategies, negotiate global contracts, and drive make-vs.-buy decisions while improving working capital and inventory health. My toolkit blends SAP/GEP with analytics and automation using Power BI, Python, and Power Automate.</p>
         </div>
         <ul class="highlights">
           <li>Global Procurement Strategy & Category Management</li>
@@ -79,30 +112,48 @@
       <div class="container">
         <h2>Experience</h2>
         <div class="timeline">
+
           <article class="card">
             <header>
               <h3>Procurement Category Specialist – Capital</h3>
               <div class="meta">Bekaert Industries Pvt. Ltd. • Jan 2023 – Present</div>
             </header>
-            <ul>
-              <li>Executed global sourcing strategies across EU, NA, SA & APAC.</li>
-              <li>Negotiated and implemented global contracts and supplier footprint shifts.</li>
-              <li>Improved working capital via term extensions and inventory parameterization.</li>
-              <li>Automated processes using APIs, Python & Power Automate.</li>
-              <li>Led global material-code standardization using AI for clear spend visibility.</li>
+            <p style="margin:10px 0 6px;font-size:15px;">Results-driven Procurement Category Specialist with expertise in global strategic sourcing, supplier management, and cost optimization. Skilled in executing procurement strategies across regions including Europe, North America, South America, and Asia-Pacific.</p>
+            <ul class="check-list">
+              <li><strong>Global Spend Analysis & Strategy</strong> – Developing strategies for what to buy and where to buy.</li>
+              <li><strong>Supplier Footprint Optimization</strong> – Driving Make vs. Buy decisions and relocating suppliers for cost efficiency and risk mitigation.</li>
+              <li><strong>Contract Negotiation</strong> – Managing global supplier agreements with robust terms and conditions.</li>
+              <li><strong>Working Capital Improvement</strong> – Extending payment terms and optimizing cash flow.</li>
+              <li><strong>Inventory Optimization</strong> – Setting correct parameters and liquidating excess inventory in the market.</li>
+              <li><strong>Process Automation & Data Analytics</strong> – Leveraging SAP, Power BI, Power Automate, Python, and AI tools to streamline procurement processes.</li>
+              <li><strong>Material Duplication Removal</strong> – Achieving clear global spend visibility by standardizing item codes.</li>
+              <li><strong>Category Expertise</strong> – Handling process equipment, spare parts, and global dies category with a focus on quality and cost-effectiveness.</li>
             </ul>
+            <p style="margin:10px 0 0;font-size:15px;color:var(--muted);"><strong style="color:var(--text);">Skills:</strong> Contract Management, Purchase Management, Spend Analysis, Strategic Negotiations, Microsoft Excel, Microsoft Power BI, Machine Learning, Data Analysis, VBA, Data Science</p>
           </article>
+
           <article class="card">
             <header>
               <h3>Purchase Engineer</h3>
               <div class="meta">JCB Industries Pvt. Ltd. • Nov 2020 – Dec 2022</div>
             </header>
-            <ul>
-              <li>Led tenders, supplier selection and techno-commercial evaluations.</li>
-              <li>Forecasted spend, identified savings and supported complex negotiations.</li>
-              <li>Owned P2P, audit resolution, and process digitization initiatives.</li>
+            <p style="margin:10px 0 6px;font-size:15px;">Proactively managed projects and executed purchasing tenders, ensuring effective supplier selection.</p>
+            <ul class="check-list">
+              <li>Analyzed historical spend data to forecast spend and savings by commodity/business.</li>
+              <li>Supported and led complex negotiations with global suppliers to secure favorable terms.</li>
+              <li>Developed vendors, interacted with suppliers, and prepared techno-commercial statements for decision-making.</li>
+              <li>Evaluated and analyzed quotations with knowledge of credit purchasing practices.</li>
+              <li>Managed material purchasing and implemented strategies for cost reduction.</li>
+              <li>Oversaw the Procure-to-Pay cycle, addressing audit-related issues and ensuring compliance.</li>
+              <li>Generated purchase orders, ensuring adherence to taxes, rates, and contractual terms.</li>
+              <li>Monitored productivity and utilization using process control techniques to achieve targets.</li>
+              <li>Improved cycle times in the system for smooth operation of the purchase department.</li>
+              <li>Implemented digitization initiatives in purchasing processes to enhance efficiency.</li>
+              <li>Managed contracts effectively, ensuring compliance and timely execution.</li>
             </ul>
+            <p style="margin:10px 0 0;font-size:15px;color:var(--muted);"><strong style="color:var(--text);">Skills:</strong> Negotiations, Contract Management, Material Creation, CAPEX, IT Purchase, MRO Purchase, AMC Negotiations</p>
           </article>
+
         </div>
       </div>
     </section>
@@ -113,7 +164,12 @@
         <div class="tags">
           <span>Negotiation</span><span>Supplier Relationship Management</span><span>Contract Management</span>
           <span>Risk Management</span><span>Financial Acumen</span><span>Category Management</span>
-          <span>SAP-MM</span><span>GEP</span><span>Power BI</span><span>Power Automate</span><span>Excel</span><span>VBA</span><span>Python</span><span>Inventory Control</span>
+          <span>SAP-MM</span><span>GEP</span><span>Power BI</span><span>Power Automate</span>
+          <span>Excel</span><span>VBA</span><span>Python</span><span>Inventory Control</span>
+          <span>Strategic Negotiations</span><span>Spend Analysis</span><span>Purchase Management</span>
+          <span>Machine Learning</span><span>Data Analysis</span><span>Data Science</span>
+          <span>Material Creation</span><span>CAPEX Procurement</span><span>IT Purchase</span>
+          <span>MRO Purchase</span><span>AMC Negotiations</span>
         </div>
       </div>
     </section>
@@ -134,132 +190,210 @@
       </div>
     </section>
 
-    <!-- NEW: Projects Section -->
     <section id="projects" class="section">
       <div class="container">
         <h2>Projects</h2>
         <div class="timeline">
+
           <article class="card">
-            <header>
-              <h3>Global Working Capital Optimization & Payment Term Transformation</h3>
-            </header>
+            <header><h3>🌍 1. Global Working Capital Optimization & Payment Term Transformation</h3></header>
+            <p class="project-overview">Global organizations often run with inconsistent payment terms across regions due to historical negotiations, local practices, or legacy contracts. This directly impacts working capital, cash flow, and profitability.</p>
+            <div class="project-section-title">What I Delivered</div>
+            <p style="font-size:14px;color:var(--muted);">Conducted a full diagnostic study of payment terms across Europe, North America, South America, and APAC. Validated legal constraints and supplier risk, aligned payment policies, and negotiated improved terms wherever leverage existed.</p>
+            <div class="project-section-title">Key Actions</div>
             <ul>
-              <li>Ran a diagnostic of payment terms across EU/NA/SA/APAC and aligned policies.</li>
-              <li>Benchmarked 600+ suppliers and negotiated improved, compliant terms.</li>
-              <li>Outcome: stronger liquidity, improved CCC, and disciplined payments.</li>
+              <li>Benchmarked global payment terms for 600+ suppliers.</li>
+              <li>Verified compliance with statutory regulations in each country.</li>
+              <li>Prioritized suppliers based on spend, leverage, and category criticality.</li>
+              <li>Negotiated improved terms and standardized policies.</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Significant improvement in cash conversion cycle (CCC).</li>
+              <li>Strengthened liquidity and working capital.</li>
+              <li>Improved net profit and payment discipline across regions.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>AI‑Driven Material Master Cleanup (Global SAP Deduplication)</h3>
-            </header>
+            <header><h3>🤖 2. AI-Driven Material Master Cleanup (Global SAP De-duplication)</h3></header>
+            <p class="project-overview">Large corporations have millions of material codes in SAP, often filled with duplicates, near-duplicates, and misclassified items — causing wrong purchases, excess inventory, increased working capital, and slow plant-to-plant transfers.</p>
+            <div class="project-section-title">What I Delivered</div>
+            <p style="font-size:14px;color:var(--muted);">Built an AI + NLP based automation system to detect duplicate materials across the global SAP database using linguistic matching, pattern recognition, and fuzzy logic.</p>
+            <div class="project-section-title">Key Actions</div>
             <ul>
-              <li>Built an NLP + fuzzy‑matching system to detect duplicates and misclassified items.</li>
-              <li>Created a Material Existence Checker to prevent future duplicates.</li>
-              <li>Outcome: cleaner catalog data, faster availability checks, lower inventory duplication.</li>
+              <li>Designed an algorithm to compare descriptions, specifications, UoM & technical attributes.</li>
+              <li>Identified thousands of duplicates globally.</li>
+              <li>Built a Material Existence Checker Tool to prevent new duplicates.</li>
+              <li>Collaborated with global data governance teams for rationalization.</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Major improvement in data quality and catalog standardization.</li>
+              <li>Reduced cost of new material creation.</li>
+              <li>Faster material availability checks → reduced emergency purchases.</li>
+              <li>Better inventory visibility → reduced stock duplication.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>Make‑vs‑Buy & Production Shift Strategy (India & China)</h3>
-            </header>
+            <header><h3>🧩 3. Make-vs-Buy & Production Shift Strategy (India & China)</h3></header>
+            <p class="project-overview">Many global companies struggle with high production costs in Europe and North America. The goal was to identify cost-efficient sourcing and manufacturing alternatives in developing regions.</p>
+            <div class="project-section-title">What I Delivered</div>
             <ul>
-              <li>Developed TCO models and feasibility for shifting selected categories.</li>
-              <li>Outcome: identified significant cost savings and improved supply resilience.</li>
+              <li>Conducted global spend analytics across categories.</li>
+              <li>Evaluated feasibility of shifting production to India and China.</li>
+              <li>Built TCO models considering logistics, duties, lead time, risk, and quality.</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Identified significant cost-saving opportunities.</li>
+              <li>Established a roadmap for shifting selected categories.</li>
+              <li>Strengthened long-term supply chain resilience.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>Monopoly Supplier Reduction & Second‑Source Development</h3>
-            </header>
+            <header><h3>🧪 4. Monopoly Supplier Reduction & Second-Source Development</h3></header>
+            <p class="project-overview">A monopoly supplier increases commercial risk, cost exposure, and supply vulnerability.</p>
+            <div class="project-section-title">What I Delivered</div>
             <ul>
-              <li>Found alternates across India/Eastern Europe/China with trials and onboarding.</li>
-              <li>Outcome: reduced disruption risk and improved commercial leverage.</li>
+              <li>Identified materials with single-source dependency.</li>
+              <li>Developed alternative suppliers across India, Eastern Europe, and China.</li>
+              <li>Led technical validation, quality trials, and onboarding.</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Reduced risk of supply disruption.</li>
+              <li>Achieved competitive pricing from suppliers.</li>
+              <li>Improved negotiation power for future tenders.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>Supplier Consolidation Using AI/NLP (Brand–Model–Make Extraction)</h3>
-            </header>
+            <header><h3>🧠 5. Supplier Consolidation Using AI/NLP (Brand–Model–Make Extraction)</h3></header>
+            <p class="project-overview">Many materials have long and inconsistent descriptions, making manual consolidation nearly impossible.</p>
+            <div class="project-section-title">What I Delivered</div>
             <ul>
-              <li>Extracted brand/make/model from long descriptions; grouped similar items.</li>
-              <li>Outcome: bundled RFQs, reduced supplier base, and lower admin cost.</li>
+              <li>Built an NLP-based script to extract brand, make, and model from thousands of global descriptions.</li>
+              <li>Grouped similar materials and ran bundled RFQs.</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Major reduction in supplier base.</li>
+              <li>Better negotiation leverage due to volume bundling.</li>
+              <li>Lower administrative effort and lower cost of supplier maintenance.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>Idle Inventory Liquidation & Circular Procurement Program</h3>
-            </header>
+            <header><h3>📦 6. Idle Inventory Liquidation & Circular Procurement Program</h3></header>
+            <p class="project-overview">Idle inventory across global warehouses locks valuable working capital.</p>
+            <div class="project-section-title">What I Delivered</div>
             <ul>
-              <li>Identified idle/obsolete stock, engaged liquidation & circular partners.</li>
-              <li>Outcome: released blocked value, lowered carrying cost, improved sustainability.</li>
+              <li>Identified idle & obsolete inventory globally.</li>
+              <li>Engaged with liquidation partners and circular procurement vendors.</li>
+              <li>Established disposal strategies to maximize recovery value.</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Released blocked inventory value back to the business.</li>
+              <li>Supported sustainability initiatives through reuse and recycling.</li>
+              <li>Reduced storage and carrying cost.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>RPA + AI for PO Acknowledgement & Follow‑Up</h3>
-            </header>
+            <header><h3>🤖 7. RPA + AI Automation of PO Acknowledgement & Follow-Up</h3></header>
+            <p class="project-overview">PO acknowledgement and follow-up consumes enormous manual time for procurement teams.</p>
+            <div class="project-section-title">What I Delivered</div>
+            <p style="font-size:14px;color:var(--muted);">Designed an end-to-end automation solution: Bot sends PO to supplier → supplier replies by email → AI reads and interprets the reply → Bot updates SAP/Excel → automated reminders for open/delayed POs.</p>
+            <div class="project-section-title">Impact</div>
             <ul>
-              <li>Bot sends POs, parses supplier replies, updates SAP/Excel, and reminds automatically.</li>
-              <li>Outcome: 80–90% admin effort reduction; OTD and transparency improved.</li>
+              <li>80–90% reduction in administrative workload.</li>
+              <li>Supplier delivery scorecard automatically updated.</li>
+              <li>Improved on-time delivery (OTD).</li>
+              <li>Enhanced transparency with dashboards for open POs, delayed shipments, and supplier ratings.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>Global Product Consolidation (PPE, Spares & Safety)</h3>
-            </header>
+            <header><h3>🌐 8. Global Product Consolidation (PPE, Spares & Safety)</h3></header>
+            <div class="project-section-title">What I Delivered</div>
             <ul>
-              <li>Classified global spend, consolidated scope, and enabled outline agreements.</li>
-              <li>Outcome: scale benefits, simpler ordering, and lower contract admin.</li>
+              <li>Classified global spend into clear buckets.</li>
+              <li>Consolidated categories for scale advantage.</li>
+              <li>Enabled global outline agreements with major suppliers.</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Lower cost due to volume leverage.</li>
+              <li>Simplified ordering for plants worldwide.</li>
+              <li>Reduced contract administration.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>AI Supplier Finder Tool</h3>
-            </header>
+            <header><h3>🔍 9. AI Supplier Finder Tool</h3></header>
+            <p class="project-overview">New purchasers often add new suppliers unnecessarily because they lack visibility of existing approved suppliers.</p>
+            <div class="project-section-title">What I Delivered</div>
             <ul>
-              <li>NLP‑based recommendation from SAP/invoice data to reuse approved vendors.</li>
-              <li>Outcome: avoided needless vendor creation; faster sourcing and higher compliance.</li>
+              <li>Developed an NLP-based supplier recommendation tool using SAP, invoices, and material descriptions.</li>
+              <li>Tool suggests existing suppliers that match the requirement.</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Avoided unnecessary supplier creation costs.</li>
+              <li>Improved compliance with approved vendor lists.</li>
+              <li>Accelerated sourcing cycle.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>Supplier Strategy: Add vs Reduce</h3>
-            </header>
+            <header><h3>🔄 10. Supplier Strategy: Add vs. Reduce</h3></header>
+            <div class="project-section-title">What I Delivered</div>
             <ul>
-              <li>Add suppliers for monopoly risk; reduce where transactions are high but spend is low.</li>
-              <li>Outcome: optimal supplier portfolio and lower admin workload.</li>
+              <li>Add suppliers where there is a monopoly (to reduce risk).</li>
+              <li>Reduce suppliers where spend is low but transactions are high (to improve efficiency).</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Optimal supplier portfolio.</li>
+              <li>Reduced administrative workload.</li>
+              <li>Balanced risk and performance.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>TCO & Operational Cost Optimization</h3>
-            </header>
+            <header><h3>⚙️ 11. TCO & Operational Cost Optimization</h3></header>
+            <div class="project-section-title">What I Delivered</div>
             <ul>
-              <li>Built lifecycle cost models (tool wear, cycle time, downtime) for negotiations.</li>
-              <li>Outcome: sustainable cost reduction beyond unit price.</li>
+              <li>Built TCO models for machining and operations.</li>
+              <li>Analyzed hidden cost drivers (tool wear, cycle time, downtime).</li>
+              <li>Negotiated full lifecycle cost improvements.</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Reduced operational cost beyond unit price.</li>
+              <li>Long-term cost benefits for the client.</li>
             </ul>
           </article>
 
           <article class="card">
-            <header>
-              <h3>Scrap Streamlining & Take‑Back Program</h3>
-            </header>
+            <header><h3>♻️ 12. Scrap Streamlining & Take-Back Program</h3></header>
+            <div class="project-section-title">What I Delivered</div>
             <ul>
-              <li>Segregated scrap streams and partnered with circular vendors for buy‑back.</li>
-              <li>Outcome: higher scrap revenue and lower environmental impact.</li>
+              <li>Segregated scrap based on material type & value.</li>
+              <li>Partnered with circular procurement vendors who take back used components and offer discounts on new purchases.</li>
+            </ul>
+            <div class="project-section-title">Impact</div>
+            <ul>
+              <li>Increased scrap revenue.</li>
+              <li>Enabled circular economy practices.</li>
+              <li>Reduced environmental impact.</li>
             </ul>
           </article>
+
         </div>
       </div>
     </section>
@@ -267,14 +401,26 @@
     <section id="contact" class="section">
       <div class="container">
         <h2>Contact</h2>
-        <p>Open to global procurement projects and collaborations.</p>
+        <p>Open to global procurement projects, roles, and collaborations.</p>
         <div class="contact-grid">
-          <a class="btn primary" href="mailto:chetanbonde97@gmail.com">chetanbonde97@gmail.com</a>
+          <a class="btn primary" href="#" onclick="openMailPopup(event)">Email Me</a>
           <a class="btn" href="https://www.linkedin.com/in/chetan-bonde-20dec1997" target="_blank" rel="noopener">LinkedIn Profile</a>
-          <a class="btn" href="Chetan_Bonde_Resume_Procurement.pdf" target="_blank" rel="noopener">Download Résumé (PDF)</a>
+          <a class="btn" href="Chetan_Bonde_Resume_Procurement.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
         </div>
+
+
       </div>
     </section>
+
+        <!-- Mail popup -->
+        <div id="mailOverlay" style="display:none;">
+          <div class="success-card">
+            <div class="success-icon">✉</div>
+            <h3>Opening Your Email</h3>
+            <p>Your email client is opening with my address pre-filled. Looking forward to connecting!</p>
+            <button class="btn primary" onclick="document.getElementById('mailOverlay').style.display='none'">Close</button>
+          </div>
+        </div>
   </main>
 
   <footer class="site-footer">
@@ -284,6 +430,14 @@
   </footer>
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
+
+    function openMailPopup(e) {
+      e.preventDefault();
+      document.getElementById('mailOverlay').style.display = 'flex';
+      setTimeout(function() {
+        window.location.href = 'mailto:chetanbonde97@gmail.com?subject=Procurement%20Enquiry';
+      }, 600);
+    }
   </script>
 </body>
 </html>
